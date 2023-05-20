@@ -1,0 +1,38 @@
+[2023-05-20 11:35:25.896] [INFO ] [main] com.springboot.hello.HelloApplication Starting HelloApplication using Java 11.0.17 on Sujeongs-MacBook-Pro.local with PID 6970 (/Users/sujeong/Programming/Java/hello/target/classes started by sujeong in /Users/sujeong/Programming/Java/hello)
+[2023-05-20 11:35:25.898] [INFO ] [main] com.springboot.hello.HelloApplication No active profile set, falling back to 1 default profile: "default"
+[2023-05-20 11:35:26.341] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-05-20 11:35:26.344] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-05-20 11:35:26.345] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-05-20 11:35:26.345] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.74]
+[2023-05-20 11:35:26.376] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-05-20 11:35:26.377] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 453 ms
+[2023-05-20 11:35:26.508] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-05-20 11:35:26.601] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-05-20 11:35:26.616] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-05-20 11:35:26.616] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-05-20 11:35:26.621] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-05-20 11:35:26.630] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-05-20 11:35:26.684] [INFO ] [main] com.springboot.hello.HelloApplication Started HelloApplication in 1.027 seconds (JVM running for 1.303)
+[2023-05-20 11:35:36.634] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-05-20 11:35:36.634] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-05-20 11:35:36.635] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-05-20 11:35:46.353] [INFO ] [http-nio-8080-exec-9] com.springboot.hello.controller.GetController getHello 메서드가 호출되었습니다
+[2023-05-20 11:47:55.869] [INFO ] [main] com.springboot.hello.HelloApplication Starting HelloApplication using Java 11.0.17 on Sujeongs-MacBook-Pro.local with PID 7282 (/Users/sujeong/Programming/Java/hello/target/classes started by sujeong in /Users/sujeong/Programming/Java/hello)
+[2023-05-20 11:47:55.870] [INFO ] [main] com.springboot.hello.HelloApplication No active profile set, falling back to 1 default profile: "default"
+[2023-05-20 11:47:56.244] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-05-20 11:47:56.246] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-05-20 11:47:56.247] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-05-20 11:47:56.247] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.74]
+[2023-05-20 11:47:56.279] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-05-20 11:47:56.279] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 391 ms
+[2023-05-20 11:47:56.404] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-05-20 11:47:56.488] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-05-20 11:47:56.502] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-05-20 11:47:56.503] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-05-20 11:47:56.508] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-05-20 11:47:56.517] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-05-20 11:47:56.577] [INFO ] [main] com.springboot.hello.HelloApplication Started HelloApplication in 0.907 seconds (JVM running for 1.173)
+[2023-05-20 11:48:06.921] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-05-20 11:48:06.922] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-05-20 11:48:06.924] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+[2023-05-20 11:48:25.188] [INFO ] [http-nio-8080-exec-10] com.springboot.hello.controller.GetController @PathVariable을 통해 들어온 값 : sujeong
